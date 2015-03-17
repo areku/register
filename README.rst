@@ -21,8 +21,8 @@ Install with pip::
 
 Use it::
 
-    >>> from register import Registry
-    >>> r = Registry()
-    >>> @r
-    >>> def abc(): pass
-    >>> r.lookup("abc")
+>>> from register import Registry
+>>> r = Registry()
+>>> @r
+>>> def abc(): pass
+>>> r.lookup("abc")

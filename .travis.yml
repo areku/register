@@ -6,5 +6,4 @@ python:
   - "nightly"
   - "pypy"
 install:
-script: python test.py
-#nosetests -v
+script: nosetests -v

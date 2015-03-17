@@ -1,7 +1,7 @@
 
 from register import *
 
-from unittest import *
+from unittest import main, TestCase
 
 class BaseTest(TestCase):
     def test_register(self):
