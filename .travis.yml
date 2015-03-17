@@ -3,8 +3,8 @@ python:
   - "2.7"
   - "3.3"
   - "3.4"
-  - "3.5"
   - "nightly"
   - "pypy"
 install:
-script: nosetests -v
+script: python test.py
+#nosetests -v

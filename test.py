@@ -45,3 +45,6 @@ class BaseTest(TestCase):
         self.assertIs(A, r.lookup("B"))
         self.assertIsNot(A, r.lookup("A"))
 
+
+if __name__ == '__main__':
+    main()
